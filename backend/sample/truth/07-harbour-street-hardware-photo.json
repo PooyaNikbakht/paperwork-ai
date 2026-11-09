@@ -1,0 +1,191 @@
+{
+  "file": "07-harbour-street-hardware-photo.jpg",
+  "media_type": "image/jpeg",
+  "sha256": "b095aa9f20a9f4d84d427eac2bd6b6fad107818303a9a60317f9b337480b823d",
+  "doc_type": "receipt",
+  "title": "Hardware receipt photo",
+  "scenario": "A phone photo of a till receipt on a counter, tilted, with uneven light.",
+  "expected_checks": [],
+  "fields": {
+    "merchant_name": {
+      "value": "Harbour Street Hardware",
+      "page": 1,
+      "quote": "HARBOUR STREET HARDWARE",
+      "boxes": [
+        {
+          "x0": 0.2936,
+          "y0": 0.1462,
+          "x1": 0.7514,
+          "y1": 0.1827
+        }
+      ]
+    },
+    "merchant_address": {
+      "value": "19 Harbour St, Hamilton, ON L8L 1A3",
+      "page": 1,
+      "quote": "19 Harbour St",
+      "boxes": [
+        {
+          "x0": 0.4226,
+          "y0": 0.188,
+          "x1": 0.6193,
+          "y1": 0.2097
+        }
+      ]
+    },
+    "date": {
+      "value": "2026-10-03",
+      "page": 1,
+      "quote": "2026-10-03  14:27",
+      "boxes": [
+        {
+          "x0": 0.3841,
+          "y0": 0.2855,
+          "x1": 0.6419,
+          "y1": 0.3099
+        }
+      ]
+    },
+    "subtotal": {
+      "value": 76.42,
+      "page": 1,
+      "quote": "SUBTOTAL 76.42",
+      "boxes": [
+        {
+          "x0": 0.2057,
+          "y0": 0.5352,
+          "x1": 0.7841,
+          "y1": 0.5738
+        }
+      ]
+    },
+    "tip": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "total": {
+      "value": 86.35,
+      "page": 1,
+      "quote": "TOTAL 86.35",
+      "boxes": [
+        {
+          "x0": 0.2002,
+          "y0": 0.5944,
+          "x1": 0.7812,
+          "y1": 0.6335
+        }
+      ]
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "ALL PRICES IN CAD",
+      "boxes": [
+        {
+          "x0": 0.3672,
+          "y0": 0.7172,
+          "x1": 0.5982,
+          "y1": 0.7382
+        }
+      ]
+    },
+    "payment_method": {
+      "value": "Visa ending 4021",
+      "page": 1,
+      "quote": "VISA ************4021",
+      "boxes": [
+        {
+          "x0": 0.3259,
+          "y0": 0.6432,
+          "x1": 0.6476,
+          "y1": 0.6704
+        }
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": "SHELF BRACKET 10IN",
+      "quantity": 4.0,
+      "unit_price": 6.49,
+      "amount": 25.96,
+      "page": 1,
+      "quote": "SHELF BRACKET 10IN",
+      "boxes": [
+        {
+          "x0": 0.2198,
+          "y0": 0.3361,
+          "x1": 0.4951,
+          "y1": 0.3612
+        }
+      ]
+    },
+    {
+      "description": "WOOD SCREWS #8 BOX",
+      "quantity": 1.0,
+      "unit_price": 8.99,
+      "amount": 8.99,
+      "page": 1,
+      "quote": "WOOD SCREWS #8 BOX",
+      "boxes": [
+        {
+          "x0": 0.214,
+          "y0": 0.3909,
+          "x1": 0.4912,
+          "y1": 0.4177
+        }
+      ]
+    },
+    {
+      "description": "DOOR SWEEP 36IN",
+      "quantity": 1.0,
+      "unit_price": 17.49,
+      "amount": 17.49,
+      "page": 1,
+      "quote": "DOOR SWEEP 36IN",
+      "boxes": [
+        {
+          "x0": 0.2134,
+          "y0": 0.4214,
+          "x1": 0.4428,
+          "y1": 0.4445
+        }
+      ]
+    },
+    {
+      "description": "LED BULB A19 4PK",
+      "quantity": 2.0,
+      "unit_price": 11.99,
+      "amount": 23.98,
+      "page": 1,
+      "quote": "LED BULB A19 4PK",
+      "boxes": [
+        {
+          "x0": 0.211,
+          "y0": 0.4512,
+          "x1": 0.4564,
+          "y1": 0.475
+        }
+      ]
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 13.0,
+      "amount": 9.93,
+      "page": 1,
+      "quote": "HST 13% 9.93",
+      "boxes": [
+        {
+          "x0": 0.2027,
+          "y0": 0.565,
+          "x1": 0.7825,
+          "y1": 0.6036
+        }
+      ]
+    }
+  ],
+  "page_count": 1
+}

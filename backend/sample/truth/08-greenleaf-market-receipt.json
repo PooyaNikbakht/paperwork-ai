@@ -1,0 +1,111 @@
+{
+  "file": "08-greenleaf-market-receipt.pdf",
+  "media_type": "application/pdf",
+  "sha256": "146fdfca779d9f46873c533dae17938c1bf54a8c64533d7261eb8abc6aeb42df",
+  "doc_type": "receipt",
+  "title": "Grocery e-receipt (part taxable)",
+  "scenario": "A PDF receipt where groceries are zero-rated and only two items carry HST.",
+  "expected_checks": [],
+  "fields": {
+    "merchant_name": {
+      "value": "Greenleaf Market",
+      "page": 1,
+      "quote": "GREENLEAF MARKET"
+    },
+    "merchant_address": {
+      "value": "230 Gordon St, Guelph, ON N1G 1X8",
+      "page": 1,
+      "quote": "230 Gordon St"
+    },
+    "date": {
+      "value": "2026-10-12",
+      "page": 1,
+      "quote": "2026-10-12  08:05"
+    },
+    "subtotal": {
+      "value": 78.19,
+      "page": 1,
+      "quote": "SUBTOTAL 78.19"
+    },
+    "tip": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "total": {
+      "value": 79.68,
+      "page": 1,
+      "quote": "TOTAL 79.68"
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "ALL PRICES IN CAD"
+    },
+    "payment_method": {
+      "value": "Debit",
+      "page": 1,
+      "quote": "INTERAC DEBIT ****8812"
+    }
+  },
+  "line_items": [
+    {
+      "description": "ORGANIC EGGS 30CT",
+      "quantity": 2.0,
+      "unit_price": 11.49,
+      "amount": 22.98,
+      "page": 1,
+      "quote": "ORGANIC EGGS 30CT"
+    },
+    {
+      "description": "UNSALTED BUTTER 454G",
+      "quantity": 4.0,
+      "unit_price": 6.29,
+      "amount": 25.16,
+      "page": 1,
+      "quote": "UNSALTED BUTTER 454G"
+    },
+    {
+      "description": "WHOLE MILK 4L",
+      "quantity": 2.0,
+      "unit_price": 6.79,
+      "amount": 13.58,
+      "page": 1,
+      "quote": "WHOLE MILK 4L"
+    },
+    {
+      "description": "LEMONS BAG 1KG",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "amount": 4.99,
+      "page": 1,
+      "quote": "LEMONS BAG 1KG"
+    },
+    {
+      "description": "PARCHMENT ROLL 30M",
+      "quantity": 1.0,
+      "unit_price": 7.49,
+      "amount": 7.49,
+      "page": 1,
+      "quote": "PARCHMENT ROLL 30M"
+    },
+    {
+      "description": "DISH SOAP 1L",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "amount": 3.99,
+      "page": 1,
+      "quote": "DISH SOAP 1L"
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 13.0,
+      "amount": 1.49,
+      "page": 1,
+      "quote": "HST 13% ON 11.48 1.49"
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Imperfections demo mode adds on top of the ground truth, so it behaves like a real model on hard inputs. Keys are document stems.",
+  "documents": {
+    "06-lakeshore-cleaning-scan": {
+      "confidence": [0.78, 0.93],
+      "line_items": {"2": {"amount": 1230.0, "confidence": 0.58}},
+      "fields": {"vendor_tax_number": {"value": "79912 3348 RT0007", "confidence": 0.61}}
+    },
+    "07-harbour-street-hardware-photo": {
+      "confidence": [0.8, 0.94],
+      "fields": {
+        "payment_method": {"confidence": 0.64},
+        "merchant_address": {"confidence": 0.69}
+      }
+    },
+    "12-catering-order-form": {
+      "fields": {"phone": {"confidence": 0.66}}
+    }
+  }
+}

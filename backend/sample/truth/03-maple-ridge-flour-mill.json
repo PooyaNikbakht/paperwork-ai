@@ -1,0 +1,297 @@
+{
+  "file": "03-maple-ridge-flour-mill.pdf",
+  "media_type": "application/pdf",
+  "sha256": "a8c89874091b5cd41cc081cf72c6414f10be2ad38669bc13fb1950775c4a39ed",
+  "doc_type": "invoice",
+  "title": "Ingredients, two pages (GST)",
+  "scenario": "A long Alberta invoice that runs onto a second page.",
+  "expected_checks": [],
+  "fields": {
+    "vendor_name": {
+      "value": "Maple Ridge Flour Mill",
+      "page": 1,
+      "quote": "Maple Ridge Flour Mill"
+    },
+    "vendor_address": {
+      "value": "4410 Mill Road SE, Calgary, AB T2C 4N9",
+      "page": 1,
+      "quote": "4410 Mill Road SE"
+    },
+    "vendor_tax_number": {
+      "value": "70011 4482 RT0001",
+      "page": 1,
+      "quote": "GST # 70011 4482 RT0001"
+    },
+    "invoice_number": {
+      "value": "MR-58210",
+      "page": 1,
+      "quote": "Invoice # MR-58210"
+    },
+    "invoice_date": {
+      "value": "2026-09-21",
+      "page": 1,
+      "quote": "2026-09-21"
+    },
+    "due_date": {
+      "value": "2026-10-21",
+      "page": 1,
+      "quote": "2026-10-21"
+    },
+    "bill_to": {
+      "value": "Juniper Lane Bakery Inc.",
+      "page": 1,
+      "quote": "Juniper Lane Bakery Inc."
+    },
+    "subtotal": {
+      "value": 2678.2,
+      "page": 2,
+      "quote": "Subtotal 2,678.20"
+    },
+    "total": {
+      "value": 2812.11,
+      "page": 2,
+      "quote": "Total (CAD) 2,812.11"
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 2,
+      "quote": "Total (CAD) 2,812.11"
+    }
+  },
+  "line_items": [
+    {
+      "description": "Unbleached bread flour, 20 kg",
+      "quantity": 12.0,
+      "unit_price": 31.8,
+      "amount": 381.6,
+      "page": 1,
+      "quote": "Unbleached bread flour, 20 kg"
+    },
+    {
+      "description": "All-purpose flour, 20 kg",
+      "quantity": 8.0,
+      "unit_price": 27.4,
+      "amount": 219.2,
+      "page": 1,
+      "quote": "All-purpose flour, 20 kg"
+    },
+    {
+      "description": "Whole wheat flour, 20 kg",
+      "quantity": 6.0,
+      "unit_price": 29.95,
+      "amount": 179.7,
+      "page": 1,
+      "quote": "Whole wheat flour, 20 kg"
+    },
+    {
+      "description": "Dark rye flour, 10 kg",
+      "quantity": 3.0,
+      "unit_price": 24.1,
+      "amount": 72.3,
+      "page": 1,
+      "quote": "Dark rye flour, 10 kg"
+    },
+    {
+      "description": "Spelt flour, 10 kg",
+      "quantity": 2.0,
+      "unit_price": 33.6,
+      "amount": 67.2,
+      "page": 1,
+      "quote": "Spelt flour, 10 kg"
+    },
+    {
+      "description": "Pastry flour, 20 kg",
+      "quantity": 5.0,
+      "unit_price": 30.25,
+      "amount": 151.25,
+      "page": 1,
+      "quote": "Pastry flour, 20 kg"
+    },
+    {
+      "description": "Semolina, 10 kg",
+      "quantity": 2.0,
+      "unit_price": 21.9,
+      "amount": 43.8,
+      "page": 1,
+      "quote": "Semolina, 10 kg"
+    },
+    {
+      "description": "Rolled oats, 10 kg",
+      "quantity": 3.0,
+      "unit_price": 18.75,
+      "amount": 56.25,
+      "page": 1,
+      "quote": "Rolled oats, 10 kg"
+    },
+    {
+      "description": "Cane sugar, 20 kg",
+      "quantity": 6.0,
+      "unit_price": 36.4,
+      "amount": 218.4,
+      "page": 1,
+      "quote": "Cane sugar, 20 kg"
+    },
+    {
+      "description": "Brown sugar, 10 kg",
+      "quantity": 4.0,
+      "unit_price": 22.8,
+      "amount": 91.2,
+      "page": 1,
+      "quote": "Brown sugar, 10 kg"
+    },
+    {
+      "description": "Icing sugar, 10 kg",
+      "quantity": 3.0,
+      "unit_price": 19.6,
+      "amount": 58.8,
+      "page": 1,
+      "quote": "Icing sugar, 10 kg"
+    },
+    {
+      "description": "Sea salt, fine, 5 kg",
+      "quantity": 2.0,
+      "unit_price": 11.3,
+      "amount": 22.6,
+      "page": 1,
+      "quote": "Sea salt, fine, 5 kg"
+    },
+    {
+      "description": "Instant dry yeast, 500 g",
+      "quantity": 10.0,
+      "unit_price": 6.95,
+      "amount": 69.5,
+      "page": 1,
+      "quote": "Instant dry yeast, 500 g"
+    },
+    {
+      "description": "Baking powder, 2 kg",
+      "quantity": 3.0,
+      "unit_price": 14.2,
+      "amount": 42.6,
+      "page": 1,
+      "quote": "Baking powder, 2 kg"
+    },
+    {
+      "description": "Baking soda, 2 kg",
+      "quantity": 2.0,
+      "unit_price": 7.45,
+      "amount": 14.9,
+      "page": 1,
+      "quote": "Baking soda, 2 kg"
+    },
+    {
+      "description": "Vanilla extract, 1 L",
+      "quantity": 2.0,
+      "unit_price": 42.0,
+      "amount": 84.0,
+      "page": 1,
+      "quote": "Vanilla extract, 1 L"
+    },
+    {
+      "description": "Cocoa powder, 5 kg",
+      "quantity": 2.0,
+      "unit_price": 48.9,
+      "amount": 97.8,
+      "page": 1,
+      "quote": "Cocoa powder, 5 kg"
+    },
+    {
+      "description": "Dark chocolate callets, 5 kg",
+      "quantity": 4.0,
+      "unit_price": 79.5,
+      "amount": 318.0,
+      "page": 1,
+      "quote": "Dark chocolate callets, 5 kg"
+    },
+    {
+      "description": "Cinnamon, ground, 1 kg",
+      "quantity": 2.0,
+      "unit_price": 17.6,
+      "amount": 35.2,
+      "page": 1,
+      "quote": "Cinnamon, ground, 1 kg"
+    },
+    {
+      "description": "Raisins, 5 kg",
+      "quantity": 2.0,
+      "unit_price": 28.3,
+      "amount": 56.6,
+      "page": 1,
+      "quote": "Raisins, 5 kg"
+    },
+    {
+      "description": "Walnut pieces, 2 kg",
+      "quantity": 3.0,
+      "unit_price": 34.2,
+      "amount": 102.6,
+      "page": 1,
+      "quote": "Walnut pieces, 2 kg"
+    },
+    {
+      "description": "Sunflower seeds, 5 kg",
+      "quantity": 1.0,
+      "unit_price": 21.4,
+      "amount": 21.4,
+      "page": 1,
+      "quote": "Sunflower seeds, 5 kg"
+    },
+    {
+      "description": "Poppy seeds, 1 kg",
+      "quantity": 2.0,
+      "unit_price": 12.9,
+      "amount": 25.8,
+      "page": 2,
+      "quote": "Poppy seeds, 1 kg"
+    },
+    {
+      "description": "Sesame seeds, 2 kg",
+      "quantity": 2.0,
+      "unit_price": 15.8,
+      "amount": 31.6,
+      "page": 2,
+      "quote": "Sesame seeds, 2 kg"
+    },
+    {
+      "description": "Malt syrup, 3 kg",
+      "quantity": 1.0,
+      "unit_price": 26.7,
+      "amount": 26.7,
+      "page": 2,
+      "quote": "Malt syrup, 3 kg"
+    },
+    {
+      "description": "Canola oil, 16 L",
+      "quantity": 2.0,
+      "unit_price": 54.6,
+      "amount": 109.2,
+      "page": 2,
+      "quote": "Canola oil, 16 L"
+    },
+    {
+      "description": "Parchment sheets, full size (1,000)",
+      "quantity": 1.0,
+      "unit_price": 62.0,
+      "amount": 62.0,
+      "page": 2,
+      "quote": "Parchment sheets, full size (1,000)"
+    },
+    {
+      "description": "Fuel surcharge",
+      "quantity": 1.0,
+      "unit_price": 18.0,
+      "amount": 18.0,
+      "page": 2,
+      "quote": "Fuel surcharge"
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "GST",
+      "rate": 5.0,
+      "amount": 133.91,
+      "page": 2,
+      "quote": "GST (5%) 133.91"
+    }
+  ],
+  "page_count": 2
+}

@@ -1,0 +1,112 @@
+{
+  "file": "02-cedar-pine-packaging.pdf",
+  "media_type": "application/pdf",
+  "sha256": "ac5dc9c0dfb8f295894b356acae8b4971c25e33d1a8faabadda129d624dbd23f",
+  "doc_type": "invoice",
+  "title": "Packaging (GST + PST)",
+  "scenario": "A British Columbia supplier charging 5% GST and 7% PST.",
+  "expected_checks": [],
+  "fields": {
+    "vendor_name": {
+      "value": "Cedar & Pine Packaging Co.",
+      "page": 1,
+      "quote": "Cedar & Pine Packaging Co."
+    },
+    "vendor_address": {
+      "value": "1270 Industrial Ave, Vancouver, BC V6A 2N4",
+      "page": 1,
+      "quote": "1270 Industrial Ave"
+    },
+    "vendor_tax_number": {
+      "value": "76543 2109 RT0001",
+      "page": 1,
+      "quote": "GST Reg. 76543 2109 RT0001"
+    },
+    "invoice_number": {
+      "value": "CP-1093",
+      "page": 1,
+      "quote": "Invoice No. CP-1093"
+    },
+    "invoice_date": {
+      "value": "2026-09-18",
+      "page": 1,
+      "quote": "September 18, 2026"
+    },
+    "due_date": {
+      "value": "2026-10-18",
+      "page": 1,
+      "quote": "October 18, 2026"
+    },
+    "bill_to": {
+      "value": "Juniper Lane Bakery Inc.",
+      "page": 1,
+      "quote": "Juniper Lane Bakery Inc."
+    },
+    "subtotal": {
+      "value": 541.05,
+      "page": 1,
+      "quote": "Subtotal 541.05"
+    },
+    "total": {
+      "value": 605.97,
+      "page": 1,
+      "quote": "Total (CAD) 605.97"
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "All amounts in Canadian dollars (CAD)"
+    }
+  },
+  "line_items": [
+    {
+      "description": "Kraft bakery boxes 10x10x5 (bundle of 100)",
+      "quantity": 4.0,
+      "unit_price": 58.0,
+      "amount": 232.0,
+      "page": 1,
+      "quote": "Kraft bakery boxes 10x10x5 (bundle of 100)"
+    },
+    {
+      "description": "Window cupcake inserts (pack of 200)",
+      "quantity": 2.0,
+      "unit_price": 31.4,
+      "amount": 62.8,
+      "page": 1,
+      "quote": "Window cupcake inserts (pack of 200)"
+    },
+    {
+      "description": "Compostable paper bags, medium (case)",
+      "quantity": 3.0,
+      "unit_price": 42.75,
+      "amount": 128.25,
+      "page": 1,
+      "quote": "Compostable paper bags, medium (case)"
+    },
+    {
+      "description": "Custom logo stickers, 1,000 count",
+      "quantity": 1.0,
+      "unit_price": 118.0,
+      "amount": 118.0,
+      "page": 1,
+      "quote": "Custom logo stickers, 1,000 count"
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "GST",
+      "rate": 5.0,
+      "amount": 27.05,
+      "page": 1,
+      "quote": "GST (5%) 27.05"
+    },
+    {
+      "kind": "PST",
+      "rate": 7.0,
+      "amount": 37.87,
+      "page": 1,
+      "quote": "PST (7%) 37.87"
+    }
+  ],
+  "page_count": 1
+}

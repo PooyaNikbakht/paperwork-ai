@@ -1,0 +1,183 @@
+{
+  "file": "14-trailhead-fuel-and-go-photo.jpg",
+  "media_type": "image/jpeg",
+  "sha256": "b2b3c2b21987021daa5e4bd766e18565496c3604cd6bbd2dfed5eeca9d36e74f",
+  "doc_type": "receipt",
+  "title": "Fuel stop receipt (fuel and a coffee and sandwich)",
+  "scenario": "A phone photo of a fuel station slip: fuel by the litre, plus two food items.",
+  "expected_checks": [],
+  "fields": {
+    "merchant_name": {
+      "value": "Trailhead Fuel and Go",
+      "page": 1,
+      "quote": "TRAILHEAD FUEL AND GO",
+      "boxes": [
+        {
+          "x0": 0.2845,
+          "y0": 0.165,
+          "x1": 0.6743,
+          "y1": 0.2012
+        }
+      ]
+    },
+    "merchant_address": {
+      "value": "4 Dunlop St W, Barrie, ON L4N 1A1",
+      "page": 1,
+      "quote": "4 Dunlop St W",
+      "boxes": [
+        {
+          "x0": 0.3859,
+          "y0": 0.2078,
+          "x1": 0.5798,
+          "y1": 0.2348
+        }
+      ]
+    },
+    "date": {
+      "value": "2026-10-22",
+      "page": 1,
+      "quote": "2026-10-22  06:18",
+      "boxes": [
+        {
+          "x0": 0.3646,
+          "y0": 0.3406,
+          "x1": 0.6166,
+          "y1": 0.3671
+        }
+      ]
+    },
+    "subtotal": {
+      "value": 107.65,
+      "page": 1,
+      "quote": "SUBTOTAL 107.65",
+      "boxes": [
+        {
+          "x0": 0.223,
+          "y0": 0.5451,
+          "x1": 0.7882,
+          "y1": 0.5876
+        }
+      ]
+    },
+    "tip": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "total": {
+      "value": 121.64,
+      "page": 1,
+      "quote": "TOTAL 121.64",
+      "boxes": [
+        {
+          "x0": 0.226,
+          "y0": 0.6076,
+          "x1": 0.7928,
+          "y1": 0.6505
+        }
+      ]
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "ALL PRICES IN CAD",
+      "boxes": [
+        {
+          "x0": 0.4053,
+          "y0": 0.7378,
+          "x1": 0.6308,
+          "y1": 0.7605
+        }
+      ]
+    },
+    "payment_method": {
+      "value": "Mastercard ending 7715",
+      "page": 1,
+      "quote": "MASTERCARD ****7715",
+      "boxes": [
+        {
+          "x0": 0.37,
+          "y0": 0.6604,
+          "x1": 0.6542,
+          "y1": 0.6885
+        }
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": "REGULAR UNLEADED",
+      "quantity": 62.41,
+      "unit_price": 1.589,
+      "amount": 99.17,
+      "page": 1,
+      "quote": "REGULAR UNLEADED",
+      "boxes": [
+        {
+          "x0": 0.2113,
+          "y0": 0.4109,
+          "x1": 0.451,
+          "y1": 0.4359
+        }
+      ]
+    },
+    {
+      "description": "COFFEE LARGE",
+      "quantity": 1.0,
+      "unit_price": 2.49,
+      "amount": 2.49,
+      "page": 1,
+      "quote": "COFFEE LARGE",
+      "boxes": [
+        {
+          "x0": 0.2158,
+          "y0": 0.4728,
+          "x1": 0.3939,
+          "y1": 0.4946
+        }
+      ]
+    },
+    {
+      "description": "BREAKFAST SANDWICH",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "amount": 5.99,
+      "page": 1,
+      "quote": "BREAKFAST SANDWICH",
+      "boxes": [
+        {
+          "x0": 0.2176,
+          "y0": 0.4996,
+          "x1": 0.4872,
+          "y1": 0.5261
+        }
+      ]
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 13.0,
+      "amount": 13.99,
+      "page": 1,
+      "quote": "HST 13% 13.99",
+      "boxes": [
+        {
+          "x0": 0.2242,
+          "y0": 0.5766,
+          "x1": 0.7907,
+          "y1": 0.6191
+        }
+      ]
+    }
+  ],
+  "page_count": 1,
+  "expected_categories": {
+    "lines": [
+      "Vehicle fuel",
+      "Meals",
+      "Meals"
+    ],
+    "receipt": "Vehicle fuel"
+  }
+}

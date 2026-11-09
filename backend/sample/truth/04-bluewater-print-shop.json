@@ -1,0 +1,107 @@
+{
+  "file": "04-bluewater-print-shop.pdf",
+  "media_type": "application/pdf",
+  "sha256": "49c54170146e4a0d54bb72b140bec50c1b84417a41f3a6e5a10e7d7ca8b0241e",
+  "doc_type": "invoice",
+  "title": "Printing, line items don't add up",
+  "scenario": "The printed subtotal is 40.00 more than the line items. A real document error.",
+  "expected_checks": [
+    "line_items_sum"
+  ],
+  "fields": {
+    "vendor_name": {
+      "value": "Bluewater Print Shop",
+      "page": 1,
+      "quote": "BLUEWATER PRINT SHOP"
+    },
+    "vendor_address": {
+      "value": "2215 Gottingen St, Halifax, NS B3K 3B5",
+      "page": 1,
+      "quote": "2215 Gottingen St"
+    },
+    "vendor_tax_number": {
+      "value": "88990 1122 RT0001",
+      "page": 1,
+      "quote": "HST Reg. No. 88990 1122 RT0001"
+    },
+    "invoice_number": {
+      "value": "BW-7731",
+      "page": 1,
+      "quote": "INVOICE NO BW-7731"
+    },
+    "invoice_date": {
+      "value": "2026-09-24",
+      "page": 1,
+      "quote": "24/09/2026"
+    },
+    "due_date": {
+      "value": "2026-10-09",
+      "page": 1,
+      "quote": "09/10/2026"
+    },
+    "bill_to": {
+      "value": "Juniper Lane Bakery Inc.",
+      "page": 1,
+      "quote": "Juniper Lane Bakery Inc."
+    },
+    "subtotal": {
+      "value": 564.0,
+      "page": 1,
+      "quote": "SUBTOTAL 564.00"
+    },
+    "total": {
+      "value": 648.6,
+      "page": 1,
+      "quote": "Total (CAD) 648.60"
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "Total (CAD) 648.60"
+    }
+  },
+  "line_items": [
+    {
+      "description": "Menu boards, 24x36 foam core",
+      "quantity": 3.0,
+      "unit_price": 46.0,
+      "amount": 138.0,
+      "page": 1,
+      "quote": "Menu boards, 24x36 foam core"
+    },
+    {
+      "description": "Tri-fold brochures (500)",
+      "quantity": 1.0,
+      "unit_price": 185.0,
+      "amount": 185.0,
+      "page": 1,
+      "quote": "Tri-fold brochures (500)"
+    },
+    {
+      "description": "Business cards, matte (1,000)",
+      "quantity": 2.0,
+      "unit_price": 52.5,
+      "amount": 105.0,
+      "page": 1,
+      "quote": "Business cards, matte (1,000)"
+    },
+    {
+      "description": "Window decal, cut vinyl",
+      "quantity": 1.0,
+      "unit_price": 96.0,
+      "amount": 96.0,
+      "page": 1,
+      "quote": "Window decal, cut vinyl"
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 15.0,
+      "amount": 84.6,
+      "page": 1,
+      "quote": "HST (15%) 84.60"
+    }
+  ],
+  "page_count": 1
+}

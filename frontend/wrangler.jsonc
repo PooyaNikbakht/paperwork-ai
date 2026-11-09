@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "paperwork-ai",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      // Self-reference binding; the service name must match the worker name.
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "paperwork-ai"
+    }
+  ],
+  "vars": {
+    // Inlined at build time too; set it before `npm run deploy`.
+    "NEXT_PUBLIC_API_URL": "https://paperwork-api.pooya.website"
+  },
+  // Served only on paperwork.pooya.website, where the zone's DDoS and rate-limit rules apply.
+  "workers_dev": false,
+  "preview_urls": false,
+  // Caps CPU per request (Workers Paid), so one runaway or abusive request can't run up usage.
+  "limits": { "cpu_ms": 100 },
+  "routes": [{ "pattern": "paperwork.pooya.website", "custom_domain": true }]
+}

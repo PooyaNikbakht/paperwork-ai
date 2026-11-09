@@ -1,0 +1,202 @@
+{
+  "file": "15-kestrel-equipment-rentals-photo.jpg",
+  "media_type": "image/jpeg",
+  "sha256": "529a6850b59a3af37afa1750e0a40d85e4b89145176e8d7d57791aa0e0d20a91",
+  "doc_type": "receipt",
+  "title": "Equipment rental slip (printed HST is wrong)",
+  "scenario": "A phone photo of a one-day excavator rental. The HST line is printed 10.00 too low, so the printed amounts don't add up to the total.",
+  "expected_checks": [
+    "totals"
+  ],
+  "fields": {
+    "merchant_name": {
+      "value": "Kestrel Equipment Rentals",
+      "page": 1,
+      "quote": "KESTREL EQUIPMENT RENTALS",
+      "boxes": [
+        {
+          "x0": 0.2703,
+          "y0": 0.1542,
+          "x1": 0.7475,
+          "y1": 0.1827
+        }
+      ]
+    },
+    "merchant_address": {
+      "value": "77 Burlington St E, Hamilton, ON L8L 4H2",
+      "page": 1,
+      "quote": "77 Burlington St E",
+      "boxes": [
+        {
+          "x0": 0.3714,
+          "y0": 0.1923,
+          "x1": 0.6464,
+          "y1": 0.2146
+        }
+      ]
+    },
+    "date": {
+      "value": "2026-10-23",
+      "page": 1,
+      "quote": "2026-10-23  08:05",
+      "boxes": [
+        {
+          "x0": 0.3748,
+          "y0": 0.3223,
+          "x1": 0.6341,
+          "y1": 0.3406
+        }
+      ]
+    },
+    "subtotal": {
+      "value": 432.8,
+      "page": 1,
+      "quote": "SUBTOTAL 432.80",
+      "boxes": [
+        {
+          "x0": 0.2074,
+          "y0": 0.5282,
+          "x1": 0.7887,
+          "y1": 0.5529
+        }
+      ]
+    },
+    "tip": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "total": {
+      "value": 489.06,
+      "page": 1,
+      "quote": "TOTAL 489.06",
+      "boxes": [
+        {
+          "x0": 0.2042,
+          "y0": 0.5885,
+          "x1": 0.7882,
+          "y1": 0.6136
+        }
+      ]
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "ALL PRICES IN CAD",
+      "boxes": [
+        {
+          "x0": 0.3766,
+          "y0": 0.7092,
+          "x1": 0.6085,
+          "y1": 0.7246
+        }
+      ]
+    },
+    "payment_method": {
+      "value": "Amex ending 1007",
+      "page": 1,
+      "quote": "AMEX ****1007",
+      "boxes": [
+        {
+          "x0": 0.3943,
+          "y0": 0.6362,
+          "x1": 0.593,
+          "y1": 0.6533
+        }
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": "MINI EXCAVATOR 1 DAY",
+      "quantity": 1.0,
+      "unit_price": 285.0,
+      "amount": 285.0,
+      "page": 1,
+      "quote": "MINI EXCAVATOR 1 DAY",
+      "boxes": [
+        {
+          "x0": 0.2099,
+          "y0": 0.3779,
+          "x1": 0.519,
+          "y1": 0.3971
+        }
+      ]
+    },
+    {
+      "description": "HYDRAULIC BREAKER ATT",
+      "quantity": 1.0,
+      "unit_price": 65.0,
+      "amount": 65.0,
+      "page": 1,
+      "quote": "HYDRAULIC BREAKER ATT",
+      "boxes": [
+        {
+          "x0": 0.2101,
+          "y0": 0.409,
+          "x1": 0.5329,
+          "y1": 0.4277
+        }
+      ]
+    },
+    {
+      "description": "DELIVERY AND PICKUP",
+      "quantity": 1.0,
+      "unit_price": 60.0,
+      "amount": 60.0,
+      "page": 1,
+      "quote": "DELIVERY AND PICKUP",
+      "boxes": [
+        {
+          "x0": 0.2097,
+          "y0": 0.4394,
+          "x1": 0.5014,
+          "y1": 0.4575
+        }
+      ]
+    },
+    {
+      "description": "DAMAGE WAIVER",
+      "quantity": 1.0,
+      "unit_price": 22.8,
+      "amount": 22.8,
+      "page": 1,
+      "quote": "DAMAGE WAIVER",
+      "boxes": [
+        {
+          "x0": 0.2088,
+          "y0": 0.4698,
+          "x1": 0.4086,
+          "y1": 0.486
+        }
+      ]
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 13.0,
+      "amount": 46.26,
+      "page": 1,
+      "quote": "HST 13% 46.26",
+      "boxes": [
+        {
+          "x0": 0.2055,
+          "y0": 0.5586,
+          "x1": 0.7884,
+          "y1": 0.5832
+        }
+      ]
+    }
+  ],
+  "page_count": 1,
+  "expected_categories": {
+    "lines": [
+      "Equipment rental",
+      "Equipment rental",
+      "Equipment rental",
+      "Equipment rental"
+    ],
+    "receipt": "Equipment rental"
+  }
+}

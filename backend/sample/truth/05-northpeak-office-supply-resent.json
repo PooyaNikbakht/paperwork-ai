@@ -1,0 +1,115 @@
+{
+  "file": "05-northpeak-office-supply-resent.pdf",
+  "media_type": "application/pdf",
+  "sha256": "e5c62887dd64264316b76b8c773e14776a3ff0a79ec456e00bbd95715dbc2542",
+  "doc_type": "invoice",
+  "title": "Office supplies, sent twice",
+  "scenario": "The same Northpeak invoice, re-sent with a 'COPY' stamp. A duplicate.",
+  "expected_checks": [
+    "duplicate"
+  ],
+  "fields": {
+    "vendor_name": {
+      "value": "Northpeak Office Supply Ltd.",
+      "page": 1,
+      "quote": "Northpeak Office Supply Ltd."
+    },
+    "vendor_address": {
+      "value": "88 Wellington St W, Suite 400, Toronto, ON M5J 1H1",
+      "page": 1,
+      "quote": "88 Wellington St W, Suite 400"
+    },
+    "vendor_tax_number": {
+      "value": "81234 5678 RT0001",
+      "page": 1,
+      "quote": "HST No. 81234 5678 RT0001"
+    },
+    "invoice_number": {
+      "value": "NP-24817",
+      "page": 1,
+      "quote": "Invoice # NP-24817"
+    },
+    "invoice_date": {
+      "value": "2026-09-14",
+      "page": 1,
+      "quote": "Sep 14, 2026"
+    },
+    "due_date": {
+      "value": "2026-10-14",
+      "page": 1,
+      "quote": "Oct 14, 2026"
+    },
+    "bill_to": {
+      "value": "Juniper Lane Bakery Inc.",
+      "page": 1,
+      "quote": "Juniper Lane Bakery Inc."
+    },
+    "subtotal": {
+      "value": 897.47,
+      "page": 1,
+      "quote": "Subtotal 897.47"
+    },
+    "total": {
+      "value": 1014.14,
+      "page": 1,
+      "quote": "Total (CAD) 1,014.14"
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "Total (CAD) 1,014.14"
+    }
+  },
+  "line_items": [
+    {
+      "description": "Receipt printer paper rolls (case of 50)",
+      "quantity": 2.0,
+      "unit_price": 64.5,
+      "amount": 129.0,
+      "page": 1,
+      "quote": "Receipt printer paper rolls (case of 50)"
+    },
+    {
+      "description": "Laser toner cartridge, black",
+      "quantity": 3.0,
+      "unit_price": 89.99,
+      "amount": 269.97,
+      "page": 1,
+      "quote": "Laser toner cartridge, black"
+    },
+    {
+      "description": "Label maker tape, 12 mm",
+      "quantity": 6.0,
+      "unit_price": 14.25,
+      "amount": 85.5,
+      "page": 1,
+      "quote": "Label maker tape, 12 mm"
+    },
+    {
+      "description": "Ergonomic counter stool",
+      "quantity": 2.0,
+      "unit_price": 189.0,
+      "amount": 378.0,
+      "page": 1,
+      "quote": "Ergonomic counter stool"
+    },
+    {
+      "description": "Delivery, Guelph",
+      "quantity": 1.0,
+      "unit_price": 35.0,
+      "amount": 35.0,
+      "page": 1,
+      "quote": "Delivery, Guelph"
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 13.0,
+      "amount": 116.67,
+      "page": 1,
+      "quote": "HST (13%) 116.67"
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,99 @@
+{
+  "file": "11-riverbend-courier.pdf",
+  "media_type": "application/pdf",
+  "sha256": "bceed4c5fc3806b6424c51e5356e6428f43925713ec936e43a35df7a7974966d",
+  "doc_type": "invoice",
+  "title": "Courier, total doesn't add up",
+  "scenario": "The printed total is 10.00 more than subtotal plus HST. A real document error.",
+  "expected_checks": [
+    "totals"
+  ],
+  "fields": {
+    "vendor_name": {
+      "value": "Riverbend Courier Services",
+      "page": 1,
+      "quote": "RIVERBEND COURIER SERVICES"
+    },
+    "vendor_address": {
+      "value": "310 Bank St, Ottawa, ON K2P 1X7",
+      "page": 1,
+      "quote": "310 Bank St"
+    },
+    "vendor_tax_number": {
+      "value": "77180 6612 RT0001",
+      "page": 1,
+      "quote": "HST 77180 6612 RT0001"
+    },
+    "invoice_number": {
+      "value": "RC-40981",
+      "page": 1,
+      "quote": "INVOICE NO RC-40981"
+    },
+    "invoice_date": {
+      "value": "2026-10-09",
+      "page": 1,
+      "quote": "2026-10-09"
+    },
+    "due_date": {
+      "value": "2026-10-23",
+      "page": 1,
+      "quote": "2026-10-23"
+    },
+    "bill_to": {
+      "value": "Juniper Lane Bakery Inc.",
+      "page": 1,
+      "quote": "Juniper Lane Bakery Inc."
+    },
+    "subtotal": {
+      "value": 225.0,
+      "page": 1,
+      "quote": "SUBTOTAL 225.00"
+    },
+    "total": {
+      "value": 264.25,
+      "page": 1,
+      "quote": "Total (CAD) 264.25"
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "Total (CAD) 264.25"
+    }
+  },
+  "line_items": [
+    {
+      "description": "Same-day delivery, Guelph to Kitchener",
+      "quantity": 6.0,
+      "unit_price": 28.5,
+      "amount": 171.0,
+      "page": 1,
+      "quote": "Same-day delivery, Guelph to Kitchener"
+    },
+    {
+      "description": "Cold-chain tote rental (weekly)",
+      "quantity": 2.0,
+      "unit_price": 15.0,
+      "amount": 30.0,
+      "page": 1,
+      "quote": "Cold-chain tote rental (weekly)"
+    },
+    {
+      "description": "Weekend delivery surcharge",
+      "quantity": 2.0,
+      "unit_price": 12.0,
+      "amount": 24.0,
+      "page": 1,
+      "quote": "Weekend delivery surcharge"
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 13.0,
+      "amount": 29.25,
+      "page": 1,
+      "quote": "HST (13%) 29.25"
+    }
+  ],
+  "page_count": 1
+}

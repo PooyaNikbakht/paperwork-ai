@@ -1,0 +1,54 @@
+{
+  "file": "12-catering-order-form.pdf",
+  "media_type": "application/pdf",
+  "sha256": "5ec6b859119b3432534f7fc971987ac400979f2eca22409ae672a29ce1129cbe",
+  "doc_type": "custom",
+  "title": "Catering order form (custom fields)",
+  "scenario": "A filled-in order form, read with custom fields defined for this batch.",
+  "expected_checks": [],
+  "fields": {
+    "customer_name": {
+      "value": "Priya Raman",
+      "page": 1,
+      "quote": "Priya Raman"
+    },
+    "phone": {
+      "value": "(519) 555-0148",
+      "page": 1,
+      "quote": "(519) 555-0148"
+    },
+    "email": {
+      "value": "priya.raman@example.com",
+      "page": 1,
+      "quote": "priya.raman@example.com"
+    },
+    "event_date": {
+      "value": "2026-11-21",
+      "page": 1,
+      "quote": "Sat. Nov 21, 2026"
+    },
+    "fulfilment": {
+      "value": "Delivery",
+      "page": 1,
+      "quote": "Delivery to Riverside Community Hall, 75 Water St"
+    },
+    "guest_count": {
+      "value": 60.0,
+      "page": 1,
+      "quote": "60"
+    },
+    "order_details": {
+      "value": "3 dozen croissants, 2 dozen scones, 1 large carrot cake",
+      "page": 1,
+      "quote": "3 dozen croissants, 2 dozen scones, 1 large carrot cake"
+    },
+    "budget": {
+      "value": 450.0,
+      "page": 1,
+      "quote": "$450"
+    }
+  },
+  "line_items": [],
+  "taxes": [],
+  "page_count": 1
+}

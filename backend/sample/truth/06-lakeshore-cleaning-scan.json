@@ -1,0 +1,225 @@
+{
+  "file": "06-lakeshore-cleaning-scan.png",
+  "media_type": "image/png",
+  "sha256": "ec26a1b9643ecaa48e3fd8ef51175fc299ac7ac1dfbe24f8d833029d74c7d24e",
+  "doc_type": "invoice",
+  "title": "Cleaning, scanned and tilted",
+  "scenario": "A paper invoice scanned crooked, with noise. Demo mode misreads one amount, the way a model can on a poor scan, and the checks catch it.",
+  "expected_checks": [],
+  "fields": {
+    "vendor_name": {
+      "value": "Lakeshore Commercial Cleaning",
+      "page": 1,
+      "quote": "Lakeshore Commercial Cleaning",
+      "boxes": [
+        {
+          "x0": 0.2528,
+          "y0": 0.0673,
+          "x1": 0.7216,
+          "y1": 0.0994
+        }
+      ]
+    },
+    "vendor_address": {
+      "value": "57 Ontario St, Kingston, ON K7L 2Y2",
+      "page": 1,
+      "quote": "57 Ontario St",
+      "boxes": [
+        {
+          "x0": 0.4506,
+          "y0": 0.1179,
+          "x1": 0.527,
+          "y1": 0.1273
+        }
+      ]
+    },
+    "vendor_tax_number": {
+      "value": "79912 3348 RT0001",
+      "page": 1,
+      "quote": "HST# 79912 3348 RT0001",
+      "boxes": [
+        {
+          "x0": 0.4117,
+          "y0": 0.1497,
+          "x1": 0.5656,
+          "y1": 0.1603
+        }
+      ]
+    },
+    "invoice_number": {
+      "value": "LCC-2026-0912",
+      "page": 1,
+      "quote": "Invoice No. LCC-2026-0912",
+      "boxes": [
+        {
+          "x0": 0.5586,
+          "y0": 0.1982,
+          "x1": 0.8902,
+          "y1": 0.2126
+        }
+      ]
+    },
+    "invoice_date": {
+      "value": "2026-09-30",
+      "page": 1,
+      "quote": "Sep 30, 2026",
+      "boxes": [
+        {
+          "x0": 0.8131,
+          "y0": 0.2175,
+          "x1": 0.891,
+          "y1": 0.2295
+        }
+      ]
+    },
+    "due_date": {
+      "value": "2026-10-30",
+      "page": 1,
+      "quote": "Oct 30, 2026",
+      "boxes": [
+        {
+          "x0": 0.8142,
+          "y0": 0.2368,
+          "x1": 0.8916,
+          "y1": 0.2482
+        }
+      ]
+    },
+    "bill_to": {
+      "value": "Juniper Lane Bakery Inc.",
+      "page": 1,
+      "quote": "Juniper Lane Bakery Inc.",
+      "boxes": [
+        {
+          "x0": 0.0922,
+          "y0": 0.2283,
+          "x1": 0.2572,
+          "y1": 0.2421
+        }
+      ]
+    },
+    "subtotal": {
+      "value": 2500.0,
+      "page": 1,
+      "quote": "Subtotal 2,500.00",
+      "boxes": [
+        {
+          "x0": 0.6754,
+          "y0": 0.4297,
+          "x1": 0.8976,
+          "y1": 0.4446
+        }
+      ]
+    },
+    "total": {
+      "value": 2825.0,
+      "page": 1,
+      "quote": "Total (CAD) 2,825.00",
+      "boxes": [
+        {
+          "x0": 0.6359,
+          "y0": 0.4751,
+          "x1": 0.899,
+          "y1": 0.4921
+        }
+      ]
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "Total (CAD) 2,825.00",
+      "boxes": [
+        {
+          "x0": 0.6359,
+          "y0": 0.4751,
+          "x1": 0.899,
+          "y1": 0.4921
+        }
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": "Deep clean, kitchen and prep area",
+      "quantity": 1.0,
+      "unit_price": 420.0,
+      "amount": 420.0,
+      "page": 1,
+      "quote": "Deep clean, kitchen and prep area",
+      "boxes": [
+        {
+          "x0": 0.0957,
+          "y0": 0.3373,
+          "x1": 0.2996,
+          "y1": 0.3519
+        }
+      ]
+    },
+    {
+      "description": "Weekly front-of-house cleaning",
+      "quantity": 4.0,
+      "unit_price": 135.0,
+      "amount": 540.0,
+      "page": 1,
+      "quote": "Weekly front-of-house cleaning",
+      "boxes": [
+        {
+          "x0": 0.0963,
+          "y0": 0.36,
+          "x1": 0.2884,
+          "y1": 0.3743
+        }
+      ]
+    },
+    {
+      "description": "Oven and hood degreasing",
+      "quantity": 4.0,
+      "unit_price": 320.0,
+      "amount": 1280.0,
+      "page": 1,
+      "quote": "Oven and hood degreasing",
+      "boxes": [
+        {
+          "x0": 0.0973,
+          "y0": 0.3831,
+          "x1": 0.2578,
+          "y1": 0.3968
+        }
+      ]
+    },
+    {
+      "description": "Floor strip and wax",
+      "quantity": 1.0,
+      "unit_price": 260.0,
+      "amount": 260.0,
+      "page": 1,
+      "quote": "Floor strip and wax",
+      "boxes": [
+        {
+          "x0": 0.0978,
+          "y0": 0.4063,
+          "x1": 0.2152,
+          "y1": 0.4193
+        }
+      ]
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 13.0,
+      "amount": 325.0,
+      "page": 1,
+      "quote": "HST (13%) 325.00",
+      "boxes": [
+        {
+          "x0": 0.6547,
+          "y0": 0.4526,
+          "x1": 0.8984,
+          "y1": 0.4685
+        }
+      ]
+    }
+  ],
+  "page_count": 1
+}

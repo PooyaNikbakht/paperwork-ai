@@ -1,0 +1,104 @@
+{
+  "file": "10-atelier-lumiere-design.pdf",
+  "media_type": "application/pdf",
+  "sha256": "9a95f961cd7d2e654bd3e0583043e606c0c6f4a321e34522bc7f794396640b08",
+  "doc_type": "invoice",
+  "title": "Design (GST + QST)",
+  "scenario": "A Quebec studio charging 5% GST and 9.975% QST, with a written-out date.",
+  "expected_checks": [],
+  "fields": {
+    "vendor_name": {
+      "value": "Atelier Lumière Design",
+      "page": 1,
+      "quote": "Atelier Lumière Design"
+    },
+    "vendor_address": {
+      "value": "5120 boul. Saint-Laurent, Montréal, QC H2T 1R8",
+      "page": 1,
+      "quote": "5120 boul. Saint-Laurent"
+    },
+    "vendor_tax_number": {
+      "value": "74422 9081 RT0001 / 1229384756 TQ0001",
+      "page": 1,
+      "quote": "GST/QST: 74422 9081 RT0001 / 1229384756 TQ0001"
+    },
+    "invoice_number": {
+      "value": "AL-2026-118",
+      "page": 1,
+      "quote": "Invoice No. AL-2026-118"
+    },
+    "invoice_date": {
+      "value": "2026-10-06",
+      "page": 1,
+      "quote": "6 October 2026"
+    },
+    "due_date": {
+      "value": "2026-11-05",
+      "page": 1,
+      "quote": "5 November 2026"
+    },
+    "bill_to": {
+      "value": "Juniper Lane Bakery Inc.",
+      "page": 1,
+      "quote": "Juniper Lane Bakery Inc."
+    },
+    "subtotal": {
+      "value": 1142.5,
+      "page": 1,
+      "quote": "Subtotal 1,142.50"
+    },
+    "total": {
+      "value": 1313.59,
+      "page": 1,
+      "quote": "Total (CAD) 1,313.59"
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "Amounts in CAD"
+    }
+  },
+  "line_items": [
+    {
+      "description": "Seasonal menu design (holiday)",
+      "quantity": 1.0,
+      "unit_price": 650.0,
+      "amount": 650.0,
+      "page": 1,
+      "quote": "Seasonal menu design (holiday)"
+    },
+    {
+      "description": "Social media templates, set of 12",
+      "quantity": 1.0,
+      "unit_price": 280.0,
+      "amount": 280.0,
+      "page": 1,
+      "quote": "Social media templates, set of 12"
+    },
+    {
+      "description": "Revisions (hourly)",
+      "quantity": 2.5,
+      "unit_price": 85.0,
+      "amount": 212.5,
+      "page": 1,
+      "quote": "Revisions (hourly)"
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "GST",
+      "rate": 5.0,
+      "amount": 57.13,
+      "page": 1,
+      "quote": "GST (5%) 57.13"
+    },
+    {
+      "kind": "QST",
+      "rate": 9.975,
+      "amount": 113.96,
+      "page": 1,
+      "quote": "QST (9.975%) 113.96"
+    }
+  ],
+  "page_count": 1
+}

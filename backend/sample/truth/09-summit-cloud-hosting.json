@@ -1,0 +1,91 @@
+{
+  "file": "09-summit-cloud-hosting.pdf",
+  "media_type": "application/pdf",
+  "sha256": "d7c843f70fa30e3f0988f4a3c04dc76f369ac33439f31603814cfcf569d0d7ef",
+  "doc_type": "invoice",
+  "title": "Software, currency mix-up",
+  "scenario": "A US vendor billing in USD whose total line says CAD. The currency check flags it.",
+  "expected_checks": [
+    "currency"
+  ],
+  "fields": {
+    "vendor_name": {
+      "value": "Summit Cloud Hosting Inc.",
+      "page": 1,
+      "quote": "Summit Cloud Hosting Inc."
+    },
+    "vendor_address": {
+      "value": "900 SW Alder St, Floor 6, Portland, OR 97205, USA",
+      "page": 1,
+      "quote": "900 SW Alder St, Floor 6"
+    },
+    "vendor_tax_number": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "invoice_number": {
+      "value": "SCH-INV-004417",
+      "page": 1,
+      "quote": "Invoice # SCH-INV-004417"
+    },
+    "invoice_date": {
+      "value": "2026-10-01",
+      "page": 1,
+      "quote": "10/01/2026"
+    },
+    "due_date": {
+      "value": "2026-10-31",
+      "page": 1,
+      "quote": "10/31/2026"
+    },
+    "bill_to": {
+      "value": "Juniper Lane Bakery Inc.",
+      "page": 1,
+      "quote": "Juniper Lane Bakery Inc."
+    },
+    "subtotal": {
+      "value": 63.0,
+      "page": 1,
+      "quote": "Subtotal 63.00"
+    },
+    "total": {
+      "value": 63.0,
+      "page": 1,
+      "quote": "Total due (CAD) 63.00"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency: USD"
+    }
+  },
+  "line_items": [
+    {
+      "description": "Online ordering site, Standard plan (October)",
+      "quantity": 1.0,
+      "unit_price": 39.0,
+      "amount": 39.0,
+      "page": 1,
+      "quote": "Online ordering site, Standard plan (October)"
+    },
+    {
+      "description": "Point-of-sale sync add-on",
+      "quantity": 1.0,
+      "unit_price": 12.0,
+      "amount": 12.0,
+      "page": 1,
+      "quote": "Point-of-sale sync add-on"
+    },
+    {
+      "description": "Extra staff seats",
+      "quantity": 3.0,
+      "unit_price": 4.0,
+      "amount": 12.0,
+      "page": 1,
+      "quote": "Extra staff seats"
+    }
+  ],
+  "taxes": [],
+  "page_count": 1
+}

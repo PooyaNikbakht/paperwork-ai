@@ -1,0 +1,234 @@
+{
+  "file": "13-eastgate-lumber-hardware-photo.jpg",
+  "media_type": "image/jpeg",
+  "sha256": "4648449b7224275edb7bb9a6824f698f8228ce05989af57782c35a2307ad283e",
+  "doc_type": "receipt",
+  "title": "Lumber yard receipt (materials, one tool, gloves)",
+  "scenario": "A creased phone photo of a lumber and hardware till slip. All amounts add up.",
+  "expected_checks": [],
+  "fields": {
+    "merchant_name": {
+      "value": "Eastgate Lumber and Hardware",
+      "page": 1,
+      "quote": "EASTGATE LUMBER AND HARDWARE",
+      "boxes": [
+        {
+          "x0": 0.2596,
+          "y0": 0.1382,
+          "x1": 0.7806,
+          "y1": 0.1697
+        }
+      ]
+    },
+    "merchant_address": {
+      "value": "118 Weber St N, Waterloo, ON N2J 3H1",
+      "page": 1,
+      "quote": "118 Weber St N",
+      "boxes": [
+        {
+          "x0": 0.4154,
+          "y0": 0.1758,
+          "x1": 0.6238,
+          "y1": 0.1946
+        }
+      ]
+    },
+    "date": {
+      "value": "2026-10-21",
+      "page": 1,
+      "quote": "2026-10-21  07:42",
+      "boxes": [
+        {
+          "x0": 0.3865,
+          "y0": 0.2649,
+          "x1": 0.6388,
+          "y1": 0.2852
+        }
+      ]
+    },
+    "subtotal": {
+      "value": 458.7,
+      "page": 1,
+      "quote": "SUBTOTAL 458.70",
+      "boxes": [
+        {
+          "x0": 0.209,
+          "y0": 0.5941,
+          "x1": 0.7752,
+          "y1": 0.6248
+        }
+      ]
+    },
+    "tip": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "total": {
+      "value": 518.33,
+      "page": 1,
+      "quote": "TOTAL 518.33",
+      "boxes": [
+        {
+          "x0": 0.2044,
+          "y0": 0.6478,
+          "x1": 0.773,
+          "y1": 0.679
+        }
+      ]
+    },
+    "currency": {
+      "value": "CAD",
+      "page": 1,
+      "quote": "ALL PRICES IN CAD",
+      "boxes": [
+        {
+          "x0": 0.3693,
+          "y0": 0.7582,
+          "x1": 0.5952,
+          "y1": 0.7754
+        }
+      ]
+    },
+    "payment_method": {
+      "value": "Visa ending 4021",
+      "page": 1,
+      "quote": "VISA ****4021",
+      "boxes": [
+        {
+          "x0": 0.3883,
+          "y0": 0.6932,
+          "x1": 0.5823,
+          "y1": 0.7116
+        }
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": "2X4X8 SPF STUD",
+      "quantity": 24.0,
+      "unit_price": 4.29,
+      "amount": 102.96,
+      "page": 1,
+      "quote": "2X4X8 SPF STUD",
+      "boxes": [
+        {
+          "x0": 0.2263,
+          "y0": 0.312,
+          "x1": 0.4352,
+          "y1": 0.3308
+        }
+      ]
+    },
+    {
+      "description": "PLYWOOD 1/2 4X8",
+      "quantity": 6.0,
+      "unit_price": 38.97,
+      "amount": 233.82,
+      "page": 1,
+      "quote": "PLYWOOD 1/2 4X8",
+      "boxes": [
+        {
+          "x0": 0.2232,
+          "y0": 0.3616,
+          "x1": 0.4455,
+          "y1": 0.383
+        }
+      ]
+    },
+    {
+      "description": "DECK SCREWS 3IN 5LB",
+      "quantity": 2.0,
+      "unit_price": 29.99,
+      "amount": 59.98,
+      "page": 1,
+      "quote": "DECK SCREWS 3IN 5LB",
+      "boxes": [
+        {
+          "x0": 0.2199,
+          "y0": 0.413,
+          "x1": 0.5041,
+          "y1": 0.4343
+        }
+      ]
+    },
+    {
+      "description": "LOCTITE PL CAULK",
+      "quantity": 4.0,
+      "unit_price": 8.49,
+      "amount": 33.96,
+      "page": 1,
+      "quote": "LOCTITE PL CAULK",
+      "boxes": [
+        {
+          "x0": 0.2164,
+          "y0": 0.4643,
+          "x1": 0.4564,
+          "y1": 0.4833
+        }
+      ]
+    },
+    {
+      "description": "UTILITY KNIFE 18MM",
+      "quantity": 1.0,
+      "unit_price": 12.99,
+      "amount": 12.99,
+      "page": 1,
+      "quote": "UTILITY KNIFE 18MM",
+      "boxes": [
+        {
+          "x0": 0.2127,
+          "y0": 0.514,
+          "x1": 0.484,
+          "y1": 0.5349
+        }
+      ]
+    },
+    {
+      "description": "WORK GLOVES LG",
+      "quantity": 1.0,
+      "unit_price": 14.99,
+      "amount": 14.99,
+      "page": 1,
+      "quote": "WORK GLOVES LG",
+      "boxes": [
+        {
+          "x0": 0.2105,
+          "y0": 0.5418,
+          "x1": 0.4212,
+          "y1": 0.5599
+        }
+      ]
+    }
+  ],
+  "taxes": [
+    {
+      "kind": "HST",
+      "rate": 13.0,
+      "amount": 59.63,
+      "page": 1,
+      "quote": "HST 13% 59.63",
+      "boxes": [
+        {
+          "x0": 0.2064,
+          "y0": 0.6211,
+          "x1": 0.7738,
+          "y1": 0.6518
+        }
+      ]
+    }
+  ],
+  "page_count": 1,
+  "expected_categories": {
+    "lines": [
+      "Materials and supplies",
+      "Materials and supplies",
+      "Materials and supplies",
+      "Materials and supplies",
+      "Tools",
+      "Safety gear and workwear"
+    ],
+    "receipt": "Materials and supplies"
+  }
+}
