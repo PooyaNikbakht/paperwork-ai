@@ -19,7 +19,7 @@ RUN uv sync --frozen --no-dev --no-install-project
 COPY app ./app
 COPY sample/documents ./sample/documents
 COPY sample/truth ./sample/truth
-COPY sample/manifest.json sample/demo_quirks.json ./sample/
+COPY sample/manifest.json sample/receipts_manifest.json sample/demo_quirks.json ./sample/
 
 RUN useradd --create-home appuser
 USER appuser

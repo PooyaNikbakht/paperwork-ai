@@ -148,6 +148,8 @@ export function BatchView({ id }: { id: string }) {
 
   const docs = useMemo(() => batch?.documents ?? [], [batch]);
   const receipts = batch?.mode === "receipt" || docs.some((d) => d.category !== null);
+  // The sample note follows the batch mode: the invoice sample also holds two receipts with categories.
+  const receiptSample = batch?.mode === "receipt";
   const [categoryRows, setCategoryRows] = useState<CategoryRow[]>([]);
   const signature = docs.map((d) => `${d.id}:${d.updated_at}`).join("|");
   useEffect(() => {
@@ -302,7 +304,7 @@ export function BatchView({ id }: { id: string }) {
         </div>
       </div>
 
-      {batch.is_sample && receipts && (
+      {batch.is_sample && receiptSample && (
         <div className="mt-6 rounded-lg border border-line bg-surface px-4 py-3 text-sm leading-relaxed">
           <p>
             <span className="font-medium">Three job receipts, photographed on a phone.</span>{" "}
@@ -313,7 +315,7 @@ export function BatchView({ id }: { id: string }) {
           </p>
         </div>
       )}
-      {batch.is_sample && !receipts && (
+      {batch.is_sample && !receiptSample && (
         <div className="mt-6 rounded-lg border border-line bg-surface px-4 py-3 text-sm leading-relaxed">
           <p>
             <span className="font-medium">A month of paperwork for a fictional bakery.</span>{" "}
